@@ -27,7 +27,7 @@ jobs:
       - name: Extract project ZIP
         run: |
           mkdir extracted
-          unzip AI_CONNECT_GitHub_APK_Build.zip -d extracted
+          unzip AI_CONNECT_V2_Voice_FreeFirst.zip -d extracted
 
       - name: Build Android APK
         working-directory: extracted/AIConnectAndroid
